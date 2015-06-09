@@ -3,15 +3,15 @@ public
 class Integer < Numeric
 
 def fizzbuzz 
-	number =self.to_i
+  number =self.to_i
   if number % 15 ==0
-  	'fizzbuzz'
+    'fizzbuzz'
   elsif number % 3 ==0
-  	'fizz'
+    'fizz'
   elsif number %5 ==0
-  	'buzz'
+    'buzz'
   else
-  	number
-  end	
+    number
+  end 
 end
 end
